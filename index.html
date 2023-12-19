@@ -5,7 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    padding: '16px',
+                },
+                extend: {
+                    colors: {
+                        primary: '#14b8a6',
+                        secondary: '#64748b',
+                        dark: '#0f172a',
+                    },
+                    screens: {
+                        '2xl': '1320px',
+                    },
+                },
+            },
+            plugins: [],
+        }
+    </script>
 </head>
 
 <body>
@@ -73,14 +95,17 @@
                             class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Samommong</span></h1>
                     <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Web Developer & <span
                             class="text-dark">Designer</span></h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed">Not knowing you can't do something, is sometimes all it takes to do it. <span class="text-dark font-bold">Yess!</span></p>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Not knowing you can't do something,
+                        is
+                        sometimes all it takes to do it. <span class="text-dark font-bold">Yess!</span></p>
 
                     <a href="https://wa.me/628979702726" target="_blank"
-                        class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me</a>
+                        class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact
+                        Me</a>
                 </div>
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:mt-0 lg:right-0">
-                        <img src="img/1.png" alt="saya" class="max-w-full mx-auto" />
+                        <img src="img/0001.png" alt="saya" class="h-96 mx-auto" />
                         <span class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-120">
                             <svg width="500" height="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#14b8a6"
@@ -102,7 +127,8 @@
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-xl lg:text-4xl">Cut the ending. Revise the script, The man of her dreams is a GIRL.</h2>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-xl lg:text-4xl">Cut the ending. Revise the
+                        script, The man of her dreams is a GIRL.</h2>
                     <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum, dolor sit amet
                         consectetur
                         adipisicing elit. Odit, ut velit. Sint dolorem debitis natus nemo?</p>
@@ -111,7 +137,8 @@
                     <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Go on!</h3>
                     <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Lorem ipsum, dolor sit amet
                         consectetur
-                        adipisicing elit. Praesentium quo consequuntur quae deleniti officiis ipsa eaque possimus nihil.
+                        adipisicing elit. Praesentium quo consequuntur quae deleniti officiis ipsa eaque possimus
+                        nihil.
                     </p>
 
                     <div class="flex items-center">
@@ -185,20 +212,22 @@
 
     <!-- Portfolio -->
     <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
-        <div class="container">
+        <div class="container ">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2 uppercase">Portfolio</h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">New Project</h2>
-                    <p class="font-medium text-base text-secondary md:text-lg">Lorem ipsum dolor sit, amet consectetur
+                    <p class="font-medium text-base text-secondary md:text-lg">Lorem ipsum dolor sit, amet
+                        consectetur
                         adipisicing
-                        elit. Dolore, nam quaerat. Consequatur quaerat sed eaque ipsum fugit quibusdam dolore hic Lorem
+                        elit. Dolore, nam quaerat. Consequatur quaerat sed eaque ipsum fugit quibusdam dolore hic
+                        Lorem
                         ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
 
-            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-                <div class="mb12 p-4 md:w-1/2">
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto ">
+                <div class="mb-12 p-4 md:w-1/2 ">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="img/01.jpg" alt="Sekepal Aspal" width="w-full">
                     </div>
@@ -208,7 +237,7 @@
                         praesentium.
                     </p>
                 </div>
-                <div class="mb12 p-4 md:w-1/2">
+                <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="img/02.jpg" alt="The Sigit" width="w-full">
                     </div>
@@ -218,18 +247,19 @@
                         praesentium. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.
                     </p>
                 </div>
-                <div class="mb12 p-4 md:w-1/2">
+                <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="img/03.jpg" alt="Mata Anggi" width="w-full">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Mata Anggi</h3>
                     <p class="font-medium text-base text-secondary">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet
+                        consectetur
                         adipisicing. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti? Nulla ex
                         exercitationem similique praesentium.
                     </p>
                 </div>
-                <div class="mb12 p-4 md:w-1/2">
+                <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="img/04.jpg" alt="Kerrang" width="w-full">
                     </div>
@@ -288,7 +318,8 @@
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2 uppercase">Blog</h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">New Article</h2>
-                    <p class="font-medium text-base text-secondary md:text-lg">Lorem ipsum dolor sit, amet consectetur
+                    <p class="font-medium text-base text-secondary md:text-lg">Lorem ipsum dolor sit, amet
+                        consectetur
                         adipisicing
                         elit. Dolore, nam quaerat. Consequatur quaerat sed eaque ipsum fugit.</p>
                 </div>
@@ -303,7 +334,8 @@
                                 <a href="#"
                                     class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Motorhead</a>
                             </h3>
-                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit, amet consectetur
+                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit, amet
+                                consectetur
                                 adipisicing elit. Optio, magnam.</p>
                             <a href="#"
                                 class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca
@@ -320,7 +352,8 @@
                                     class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Heavy
                                     Metal</a>
                             </h3>
-                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur
+                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet
+                                consectetur
                                 adipisicing elit. Doloremque, architecto Lorem ipsum dolor sit amet.</p>
                             <a href="#"
                                 class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca
@@ -334,10 +367,12 @@
                         <div class="py-8 px-6">
                             <h3>
                                 <a href="#"
-                                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">A Day
+                                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">A
+                                    Day
                                     to Remember</a>
                             </h3>
-                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur
+                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet
+                                consectetur
                                 adipisicing elit. Doloremque, architecto!</p>
                             <a href="#"
                                 class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca
@@ -358,7 +393,8 @@
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2 uppercase">Contact</h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Contact Us</h2>
-                    <p class="font-medium text-base text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                    <p class="font-medium text-base text-secondary md:text-lg">Lorem ipsum dolor sit amet
+                        consectetur
                         adipisicing elit. At, eligendi.</p>
                 </div>
             </div>
